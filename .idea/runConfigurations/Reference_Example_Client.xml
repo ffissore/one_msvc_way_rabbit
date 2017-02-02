@@ -1,0 +1,29 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Reference Example Client" type="MavenRunConfiguration" factoryName="Maven">
+    <MavenSettings>
+      <option name="myGeneralSettings" />
+      <option name="myRunnerSettings" />
+      <option name="myRunnerParameters">
+        <MavenRunnerParameters>
+          <option name="profiles">
+            <set />
+          </option>
+          <option name="goals">
+            <list>
+              <option value="exec:java" />
+              <option value="-Dexec.mainClass=it.jugtorino.one.msvc.way.rabbit.geoip.reference.client.RpcClientExample" />
+            </list>
+          </option>
+          <option name="profilesMap">
+            <map />
+          </option>
+          <option name="resolveToWorkspace" value="true" />
+          <option name="workingDirPath" value="$PROJECT_DIR$/reference-rpc-client" />
+        </MavenRunnerParameters>
+      </option>
+    </MavenSettings>
+    <method>
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
